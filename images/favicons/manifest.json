@@ -1,7 +1,7 @@
 {
-  "name": "Gianfarnco Arena",
-  "short_name": "Gianfarnco Arena",
-  "description": "A modern boilerplate for static website development",
+  "name": "gfarena.com",
+  "short_name": "gfarena.com",
+  "description": "GF.Arena",
   "dir": "auto",
   "lang": "en-US",
   "display": "standalone",

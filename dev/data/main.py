@@ -46,7 +46,7 @@ def create_filter_pages(templateEnv, data):
   filters = []
   projects = data['projects']
 
-  Path("../src/filters").mkdir(parents=True, exist_ok=True)
+  Path("../src/filter").mkdir(parents=True, exist_ok=True)
 
   for project in projects:
     tags = project['tags']
@@ -70,7 +70,7 @@ def create_filter_pages(templateEnv, data):
     template = templateEnv.get_template('filters.html.j2')
     file = template.render(data=filter_pages[page])  # this is where to put args to the template renderer
 
-    write_to_file(f'filters/{page}.html', file)
+    write_to_file(f'filter/{page}.html', file)
 
 
 
