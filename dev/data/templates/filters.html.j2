@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Static Site Boilerplate</title>
+  <meta name="description" content=""/>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-12 my-4">
+      <h1 class="text-white"><a href="/" class="text-white text-decoration-none" >GF.Arena</a></h1>
+      <a class="info-link" href="/info.html">info</a>
+    </div>
+  </div>
+  <div class="row">
+
+    {% for project in data %}
+    <div class="col-6 col-md-4 col-lg-3 mb-4">
+      <a href=".{{ project.url }}.html">
+        <div class="card">
+          <img src="/{{ project.image }}" class="card-img-top" alt="{{ project.name }}">
+          <div class="card-body">
+            <h5 class="card-title text-center m-0">{{ project.name }}</h5>
+            <p class="card-text text-center">
+              {% for tag in project.tags %}
+                <a href="/filters/{{ tag }}.html">{{ tag }}</a>{{ ", " if not loop.last else "" }}
+              {% endfor %}
+            </p>
+          </div>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+</body>
+</html>
