@@ -7,8 +7,8 @@ cp dist/*.* ../
 cp -r dist/images/* ../images
 cp -r dist/images/favicons/* ../images/favicons
 cp -r dist/fonts ../fonts
-mkdir ../filter
-cp -r dist/filter/* ../filter
+# mkdir ../filter
+# cp -r dist/filter/* ../filter
 cd ..
 git add .
 git status

@@ -24,7 +24,7 @@
             <h5 class="card-title text-center m-0">{{ project.name }}</h5>
             <p class="card-text text-center">
               {% for tag in project.tags %}
-                <a href="filter/{{ tag }}.html">{{ tag }}</a>{{ ", " if not loop.last else "" }}
+                <a href="{{ tag }}.html">{{ tag }}</a>{{ ", " if not loop.last else "" }}
               {% endfor %}
             </p>
           </div>
