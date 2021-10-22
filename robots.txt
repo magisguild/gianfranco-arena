@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://gfarena.com/sitemap.xml
+Host: https://gfarena.com
