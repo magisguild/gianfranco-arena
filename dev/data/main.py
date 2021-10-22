@@ -3,7 +3,7 @@
 import jinja2 as jinja2
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 import json
-
+from pathlib import Path
 
 def load_data():
   # Opening JSON file
@@ -45,18 +45,34 @@ def create_project_pages(templateEnv, data):
 def create_filter_pages(templateEnv, data):
   filters = []
   projects = data['projects']
+
+  Path("../src/filters").mkdir(parents=True, exist_ok=True)
+
   for project in projects:
     tags = project['tags']
     filters.extend(tags)
   filters = list(set(filters))
 
-  filter_pages = []
+  filter_pages = {}
   for filter_page in filters:
+    filter_pages[f'{filter_page}'] = []
+
+  for page in filter_pages:
     for project in projects:
-      if filter_page in project['tags']:
-          # f'{filter_page}' = {}
-          filter_pages.append(f'{filter_page}')
-  print(filter_pages)
+      if page in project['tags']:
+        # if filter_pages[f'"{filter_page}"'] not in filter_pages:
+        filter_pages[f'{page}'].append(project)
+        # else:
+        #   filter_pages[f'{filter_page}'].extend(project)
+          # filter_pages.append(f'{filter_page}')
+
+  for page in filter_pages:
+    template = templateEnv.get_template('filters.html.j2')
+    file = template.render(data=filter_pages[page])  # this is where to put args to the template renderer
+
+    write_to_file(f'filters/{page}.html', file)
+
+
 
 
 def create_info_page(templateEnv, data):
@@ -82,7 +98,7 @@ def main():
   create_project_pages(templateEnv, data)
 
   create_info_page(templateEnv, data)
-  # create_filter_pages(templateEnv, data)
+  create_filter_pages(templateEnv, data)
 
 
 if __name__ == '__main__':
