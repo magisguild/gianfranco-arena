@@ -7,6 +7,7 @@ cp dist/*.* ../
 cp -r dist/images/* ../images
 cp -r dist/images/favicons/* ../images/favicons
 cp -r dist/fonts ../fonts
+mkdir ../filters
 cp -r dist/filters/* ../filters
 cd ..
 git add .
