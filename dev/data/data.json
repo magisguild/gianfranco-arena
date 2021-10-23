@@ -318,6 +318,36 @@
         "FedEx",
         "TV"
       ]
+    },
+    {
+      "name": "Shrink Ray (CD)",
+      "url": "/Shrink-Ray-CD",
+      "image": "images/prt_1331308496.png",
+      "video": "https://player.vimeo.com/video/38199238?title=0&byline=0&portrait=0",
+      "tags": [
+        "FedEx",
+        "TV"
+      ]
+    },
+    {
+      "name": "Luck",
+      "url": "/Luck",
+      "image": "images/prt_1331248867.png",
+      "video": "https://player.vimeo.com/video/38177354?title=0&byline=0&portrait=0",
+      "tags": [
+        "FedEx",
+        "TV"
+      ]
+    },
+    {
+      "name": "Walk",
+      "url": "/Walk",
+      "image": "images/prt_1333073333.png",
+      "video": "https://player.vimeo.com/video/39453729?title=0&byline=0&portrait=0",
+      "tags": [
+        "Levis",
+        "TV"
+      ]
     }
   ]
 }
