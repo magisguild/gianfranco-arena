@@ -28,8 +28,12 @@ body {
     .subtitle {
       font-weight: 400;
       //font-family: "neue-haas-grotesk-display";
-      font-size: remcalc(30px);
       line-height: 0;
+      font-size: 1.175rem;
+
+      @include media-breakpoint-up(sm) {
+        font-size: remcalc(30px);
+      }
     }
   }
 }
