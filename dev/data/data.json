@@ -215,7 +215,7 @@
       "name": "Walkman (CD)",
       "url": "/Walkman-CD",
       "image": "images/prt_1423775673_2x.png",
-      "video": "//player.vimeo.com/video/119482903?title=0&byline=0&portrait=0",
+      "video": "https://player.vimeo.com/video/119482903?title=0&byline=0&portrait=0",
       "tags": [
         "Twix",
         "TV"

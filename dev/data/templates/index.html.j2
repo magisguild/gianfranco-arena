@@ -23,7 +23,7 @@
 
     {% for project in data %}
     <div class="col-6 col-md-4 col-lg-3 mb-4">
-      <a href=".{{ project.url }}.html">
+      <a href=".{{ project.url }}.html" class="text-decoration-none">
         <div class="card">
           <img src="{{ project.image }}" class="card-img-top" alt="{{ project.name }}">
           <div class="card-body">
