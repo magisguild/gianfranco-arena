@@ -13,6 +13,12 @@ body {
   //@extend .mt-4;
   //@extend .mb-3;
 
+  max-width: remcalc(200px);
+
+  @include media-breakpoint-up(md) {
+    max-width: remcalc(300px);
+  }
+
   a {
     @extend h1;
 
@@ -99,6 +105,10 @@ body {
         font-size: 11px;
         line-height: 1.5em;
         text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
   }
