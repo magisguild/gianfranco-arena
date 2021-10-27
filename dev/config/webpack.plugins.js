@@ -86,6 +86,7 @@ const favicons = new FaviconsWebpackPlugin({
     appDescription: config.site_description,
     developerName: null,
     developerURL: null,
+    background: '#000',
     icons: {
       android: true,
       appleIcon: true,
