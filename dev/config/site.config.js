@@ -9,10 +9,10 @@ if (!ROOT) {
 
 const config = {
   // Your website's name, used for favicon meta tags
-  site_name: 'gfarena.com',
+  site_name: 'Gianfranco Arena',
 
   // Your website's description, used for favicon meta tags
-  site_description: 'GF.Arena',
+  site_description: 'Gianfranco Arena Creative Director',
 
   // Your website's URL, used for sitemap
   site_url: 'https://gfarena.com',
