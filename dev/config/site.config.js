@@ -18,7 +18,7 @@ const config = {
   site_url: 'https://gfarena.com',
 
   // Google Analytics tracking ID (leave blank to disable)
-  googleAnalyticsUA: 'G-MTRN8KY8YW',
+  googleAnalyticsUA: '',
 
   // The viewport meta tag added to your HTML page's <head> tag
   viewport: 'width=device-width,initial-scale=1',
