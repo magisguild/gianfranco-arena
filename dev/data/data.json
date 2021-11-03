@@ -1,104 +1,33 @@
 {
   "projects": [
     {
-      "name": "First Visitors (CD)",
-      "url": "/First-Visitors-CD",
-      "image": "images/prt_1604794053_4x.png",
-      "video": "https://player.vimeo.com/video/520786245?title=0&byline=0&portrait=0",
+      "name": "Game",
+      "url": "/Game",
+      "image": "images/prt_1331309752.png",
+      "video": "https://player.vimeo.com/video/38200300?title=0&byline=0&portrait=0",
       "tags": [
         "Snickers",
         "TV"
       ]
     },
     {
-      "name": "Fix The World (CD)",
-      "url": "/Fix-The-World-CD",
-      "image": "images/prt_1604814811_4x.png",
-      "video": "https://player.vimeo.com/video/476769715?title=0&byline=0&portrait=0",
+      "name": "Road Trip",
+      "url": "/Road-Trip",
+      "image": "images/prt_1331309951.png",
+      "video": "https://player.vimeo.com/video/38200318?title=0&byline=0&portrait=0",
       "tags": [
-        "Snickers Case Film"
-      ]
-    },
-    {
-      "name": "One For Two Coupon (CD)",
-      "url": "/One-For-Two-Coupon-CD",
-      "image": "images/prt_1604807498_4x.png",
-      "video": "https://player.vimeo.com/video/519748401?title=0&byline=0&portrait=0",
-      "tags": [
-        "Snickers Case Film"
-      ]
-    },
-    {
-      "name": "Mutts for Trucks (CD)",
-      "url": "/Mutts-for-Trucks-CD",
-      "image": "images/prt_1615222255_4x.png",
-      "video": "https://player.vimeo.com/video/520024504?title=0&byline=0&portrait=0",
-      "tags": [
-        "Pedigree Case Film"
-      ]
-    },
-    {
-      "name": "Dogs On Zoom Case Study (CD)",
-      "url": "/Dogs-On-Zoom-Case-Study-CD",
-      "image": "images/prt_1614883231_4x.png",
-      "video": "https://player.vimeo.com/video/519609251?title=0&byline=0&portrait=0",
-      "tags": [
-        "Pedigree Case Film"
-      ]
-    },
-    {
-      "name": "One True Loyalty Program (CD)",
-      "url": "/One-True-Loyalty-Program-CD",
-      "image": "images/prt_1614888240_4x.png",
-      "video": "https://player.vimeo.com/video/519643259?title=0&byline=0&portrait=0",
-      "tags": [
-        "Pedigree Case Film"
-      ]
-    },
-    {
-      "name": "Welcome Home (CD)",
-      "url": "/Welcome-Home-CD",
-      "image": "images/prt_1604814354_4x.png",
-      "video": "https://player.vimeo.com/video/476761233?title=0&byline=0&portrait=0",
-      "tags": [
-        "Pedigree",
+        "Snickers",
         "TV"
       ]
     },
     {
-      "name": "Errands (CD)",
-      "url": "/Errands-CD",
-      "image": "images/prt_1604797091_4x.png",
-      "video": "https://player.vimeo.com/video/476733559?title=0&byline=0&portrait=0",
+      "name": "Party",
+      "url": "/Party",
+      "image": "images/prt_1331310383.png",
+      "video": "https://player.vimeo.com/video/38200347?title=0&byline=0&portrait=0",
       "tags": [
-        "Pedigree",
+        "Snickers",
         "TV"
-      ]
-    },
-    {
-      "name": "Non-Imaginary Friends (CD)",
-      "url": "/Non-Imaginary-Friends-CD",
-      "image": "images/prt_1615182800_4x.png",
-      "video": "",
-      "gallery": [
-        {
-          "name": "",
-          "meta": "",
-          "src": "images/2-non-imaginary-adsoftheworld-hill_1600_c.jpeg"
-        },
-        {
-          "name": "",
-          "meta": "",
-          "src": "images/3-non-imaginary-adsoftheworld-lake_1600_c.jpeg"
-        },
-        {
-          "name": "",
-          "meta": "",
-          "src": "images/1-non-imaginary-adsoftheworld-snow_1600_c.jpeg"
-        }
-      ],
-      "tags": [
-        "Pedigree Adoption Print"
       ]
     },
     {
@@ -108,7 +37,7 @@
       "video": "https://player.vimeo.com/video/521014172?title=0&byline=0&portrait=0",
       "tags": [
         "Snickers",
-        "Outdoor (CD)"
+        "Outdoor"
       ]
     },
     {
@@ -122,17 +51,17 @@
       ]
     },
     {
-      "name": "Spooky Special (CD)",
-      "url": "/Spooky-Special-CD",
-      "image": "images/prt_1604808462_4x.png",
-      "video": "https://player.vimeo.com/video/476757360?title=0&byline=0&portrait=0",
+      "name": "Recovery Room",
+      "url": "/Recovery-Room-CD",
+      "image": "images/prt_1604196792_4x.png",
+      "video": "https://player.vimeo.com/video/474466347?title=0&byline=0&portrait=0",
       "tags": [
         "Snickers",
         "TV"
       ]
     },
     {
-      "name": "Irritable (CD)",
+      "name": "Irritable",
       "url": "/Irritable-CD",
       "image": "images/prt_1604804531_4x.png",
       "video": "https://player.vimeo.com/video/476747689?title=0&byline=0&portrait=0",
@@ -142,13 +71,41 @@
       ]
     },
     {
-      "name": "Recovery Room (CD)",
-      "url": "/Recovery-Room-CD",
-      "image": "images/prt_1604196792_4x.png",
-      "video": "https://player.vimeo.com/video/474466347?title=0&byline=0&portrait=0",
+      "name": "Spooky Special",
+      "url": "/Spooky-Special-CD",
+      "image": "images/prt_1604808462_4x.png",
+      "video": "https://player.vimeo.com/video/476757360?title=0&byline=0&portrait=0",
       "tags": [
         "Snickers",
         "TV"
+      ]
+    },
+    {
+      "name": "One For Two Coupon",
+      "url": "/One-For-Two-Coupon-CD",
+      "image": "images/prt_1604807498_4x.png",
+      "video": "https://player.vimeo.com/video/519748401?title=0&byline=0&portrait=0",
+      "tags": [
+        "Snickers Case Film"
+      ]
+    },
+    {
+      "name": "First Visitors",
+      "url": "/First-Visitors-CD",
+      "image": "images/prt_1604794053_4x.png",
+      "video": "https://player.vimeo.com/video/520786245?title=0&byline=0&portrait=0",
+      "tags": [
+        "Snickers",
+        "TV"
+      ]
+    },
+    {
+      "name": "Fix The World",
+      "url": "/Fix-The-World-CD",
+      "image": "images/prt_1604814811_4x.png",
+      "video": "https://player.vimeo.com/video/476769715?title=0&byline=0&portrait=0",
+      "tags": [
+        "Snickers Case Film"
       ]
     },
     {
@@ -165,7 +122,7 @@
       ],
       "tags": [
         "Snickers",
-        "Stunt (CD)"
+        "Stunt"
       ]
     },
     {
@@ -181,11 +138,11 @@
         }
       ],
       "tags": [
-        "Snickers Print (CD)"
+        "Snickers Print"
       ]
     },
     {
-      "name": "Medusa (CD)",
+      "name": "Medusa",
       "url": "/Medusa-CD",
       "image": "images/prt_1423776171_4x.jpg",
       "video": "",
@@ -202,7 +159,27 @@
       ]
     },
     {
-      "name": "Hairspray (CD)",
+      "name": "Focus Group",
+      "url": "/Focus-Group",
+      "image": "images/prt_1343952717.png",
+      "video": "https://player.vimeo.com/video/38110586?title=0&byline=0&portrait=0",
+      "tags": [
+        "Snickers",
+        "TV"
+      ]
+    },
+    {
+      "name": "Ideologies",
+      "url": "/Ideologies-CD",
+      "image": "images/prt_1343846238.png",
+      "video": "https://player.vimeo.com/video/46768939?title=0&byline=0&portrait=0",
+      "tags": [
+        "Twix",
+        "TV"
+      ]
+    },
+    {
+      "name": "Hairspray",
       "url": "/Hairspray-CD",
       "image": "images/prt_1423776057_2x.png",
       "video": "//player.vimeo.com/video/119482901?title=0&byline=0&portrait=0",
@@ -212,7 +189,7 @@
       ]
     },
     {
-      "name": "Walkman (CD)",
+      "name": "Walkman",
       "url": "/Walkman-CD",
       "image": "images/prt_1423775673_2x.png",
       "video": "https://player.vimeo.com/video/119482903?title=0&byline=0&portrait=0",
@@ -222,22 +199,12 @@
       ]
     },
     {
-      "name": "Twix #tbt (CD)",
+      "name": "Twix #tbt",
       "url": "/Twix-tbt-CD",
       "image": "images/prt_1423781219_4x.png",
       "video": "//player.vimeo.com/video/119494486?title=0&byline=0&portrait=0",
       "tags": [
         "Online every Throwback Thursday"
-      ]
-    },
-    {
-      "name": "Ideologies (CD)",
-      "url": "/Ideologies-CD",
-      "image": "images/prt_1343846238.png",
-      "video": "https://player.vimeo.com/video/46768939?title=0&byline=0&portrait=0",
-      "tags": [
-        "Twix",
-        "TV"
       ]
     },
     {
@@ -260,50 +227,20 @@
       ]
     },
     {
-      "name": "Party",
-      "url": "/Party",
-      "image": "images/prt_1331310383.png",
-      "video": "https://player.vimeo.com/video/38200347?title=0&byline=0&portrait=0",
-      "tags": [
-        "Snickers",
-        "TV"
-      ]
-    },
-    {
-      "name": "Focus Group",
-      "url": "/Focus-Group",
-      "image": "images/prt_1343952717.png",
-      "video": "https://player.vimeo.com/video/38110586?title=0&byline=0&portrait=0",
-      "tags": [
-        "Snickers",
-        "TV"
-      ]
-    },
-    {
-      "name": "Road Trip",
-      "url": "/Road-Trip",
-      "image": "images/prt_1331309951.png",
-      "video": "https://player.vimeo.com/video/38200318?title=0&byline=0&portrait=0",
-      "tags": [
-        "Snickers",
-        "TV"
-      ]
-    },
-    {
-      "name": "Game",
-      "url": "/Game",
-      "image": "images/prt_1331309752.png",
-      "video": "https://player.vimeo.com/video/38200300?title=0&byline=0&portrait=0",
-      "tags": [
-        "Snickers",
-        "TV"
-      ]
-    },
-    {
       "name": "Exchange Student",
       "url": "/Exchange-Student",
       "image": "images/prt_1331248975.png",
       "video": "https://player.vimeo.com/video/38177169?title=0&byline=0&portrait=0",
+      "tags": [
+        "FedEx",
+        "TV"
+      ]
+    },
+    {
+      "name": "Luck",
+      "url": "/Luck",
+      "image": "images/prt_1331248867.png",
+      "video": "https://player.vimeo.com/video/38177354?title=0&byline=0&portrait=0",
       "tags": [
         "FedEx",
         "TV"
@@ -320,7 +257,7 @@
       ]
     },
     {
-      "name": "Shrink Ray (CD)",
+      "name": "Shrink Ray",
       "url": "/Shrink-Ray-CD",
       "image": "images/prt_1331308496.png",
       "video": "https://player.vimeo.com/video/38199238?title=0&byline=0&portrait=0",
@@ -330,13 +267,76 @@
       ]
     },
     {
-      "name": "Luck",
-      "url": "/Luck",
-      "image": "images/prt_1331248867.png",
-      "video": "https://player.vimeo.com/video/38177354?title=0&byline=0&portrait=0",
+      "name": "Mutts for Trucks",
+      "url": "/Mutts-for-Trucks-CD",
+      "image": "images/prt_1615222255_4x.png",
+      "video": "https://player.vimeo.com/video/520024504?title=0&byline=0&portrait=0",
       "tags": [
-        "FedEx",
+        "Pedigree Case Film"
+      ]
+    },
+    {
+      "name": "Dogs On Zoom Case Study",
+      "url": "/Dogs-On-Zoom-Case-Study-CD",
+      "image": "images/prt_1614883231_4x.png",
+      "video": "https://player.vimeo.com/video/519609251?title=0&byline=0&portrait=0",
+      "tags": [
+        "Pedigree Case Film"
+      ]
+    },
+    {
+      "name": "One True Loyalty Program",
+      "url": "/One-True-Loyalty-Program-CD",
+      "image": "images/prt_1614888240_4x.png",
+      "video": "https://player.vimeo.com/video/519643259?title=0&byline=0&portrait=0",
+      "tags": [
+        "Pedigree Case Film"
+      ]
+    },
+    {
+      "name": "Welcome Home",
+      "url": "/Welcome-Home-CD",
+      "image": "images/prt_1604814354_4x.png",
+      "video": "https://player.vimeo.com/video/476761233?title=0&byline=0&portrait=0",
+      "tags": [
+        "Pedigree",
         "TV"
+      ]
+    },
+    {
+      "name": "Errands",
+      "url": "/Errands-CD",
+      "image": "images/prt_1604797091_4x.png",
+      "video": "https://player.vimeo.com/video/476733559?title=0&byline=0&portrait=0",
+      "tags": [
+        "Pedigree",
+        "TV"
+      ]
+    },
+    {
+      "name": "Non-Imaginary Friends",
+      "url": "/Non-Imaginary-Friends-CD",
+      "image": "images/prt_1615182800_4x.png",
+      "video": "",
+      "gallery": [
+        {
+          "name": "",
+          "meta": "",
+          "src": "images/2-non-imaginary-adsoftheworld-hill_1600_c.jpeg"
+        },
+        {
+          "name": "",
+          "meta": "",
+          "src": "images/3-non-imaginary-adsoftheworld-lake_1600_c.jpeg"
+        },
+        {
+          "name": "",
+          "meta": "",
+          "src": "images/1-non-imaginary-adsoftheworld-snow_1600_c.jpeg"
+        }
+      ],
+      "tags": [
+        "Pedigree Adoption Print"
       ]
     },
     {
