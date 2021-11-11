@@ -25,3 +25,12 @@ $rem-base: 16px;
 
   @return $remValues;
 }
+
+@mixin on-action() {
+  &:hover,
+  &:active,
+  &:focus {
+    outline: none;
+    @content;
+  }
+}

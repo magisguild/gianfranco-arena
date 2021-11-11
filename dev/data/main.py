@@ -5,6 +5,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 import json
 from pathlib import Path
 
+
 def load_data():
   # Opening JSON file
   f = open('data.json')
@@ -64,15 +65,13 @@ def create_filter_pages(templateEnv, data):
         filter_pages[f'{page}'].append(project)
         # else:
         #   filter_pages[f'{filter_page}'].extend(project)
-          # filter_pages.append(f'{filter_page}')
+        # filter_pages.append(f'{filter_page}')
 
   for page in filter_pages:
-    template = templateEnv.get_template('filters.html.j2')
+    template = templateEnv.get_template('index.html.j2')
     file = template.render(data=filter_pages[page])  # this is where to put args to the template renderer
 
     write_to_file(f'{page}.html', file)
-
-
 
 
 def create_info_page(templateEnv, data):

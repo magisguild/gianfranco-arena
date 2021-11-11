@@ -17,17 +17,8 @@
 </head>
 <body>
 <div class="container">
-  <div class="row pt-4 pb-3">
-    <div class="col-12">
-        <div class="header mb-3">
-          <a href="/" class="text-decoration-none">
-            <img src="images/logo.png" class="img-fluid" alt="">
-          </a>
-        </div>
-      <a class="info-link" href="/info.html">info</a>
-    </div>
-  </div>
-{% if project.video != "" %}
+  {% include 'header.html.j2' %}
+  {% if project.video != "" %}
   <div class="row mb-5">
 {#    <div class="col-12 align-content-center d-flex">#}
 {#      <iframe src="{{ project.video }}" class="mx-auto" width="900" height="506" frameborder="0" allowfullscreen></iframe>#}
@@ -38,9 +29,9 @@
       </div>
     </div>
   </div>
-{% endif %}
+  {% endif %}
 
-{% if project.gallery != "" %}
+  {% if project.gallery != "" %}
   <div class="row mb-5">
   <div class="gallery">
   {% for image in project.gallery %}
@@ -48,25 +39,11 @@
   {% endfor %}
   </div>
   </div>
-{% endif %}
+  {% endif %}
   <div class="row">
 
     {% for project in data %}
-    <div class="col-6 col-md-4 col-lg-3 mb-4">
-    <a href=".{{ project.url }}.html">
-      <div class="card">
-        <img src="{{ project.image }}" class="card-img-top" alt="Fix The World">
-        <div class="card-body">
-          <h5 class="card-title text-center text-decoration-none m-0">{{ project.name }}</h5>
-          <p class="card-text text-center">
-            {% for tag in project.tags %}
-              <a href="filter/{{ tag }}">{{ tag }}</a>{{ ", " if not loop.last else "" }}
-            {% endfor %}
-          </p>
-        </div>
-      </div>
-    </a>
-    </div>
+    {% include 'tile.html.j2' %}
     {% endfor %}
   </div>
 </div>
