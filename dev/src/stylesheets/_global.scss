@@ -15,9 +15,10 @@ body {
     font-weight: 600;
     font-size: remcalc(32);
     line-height: remcalc(30);
-    //@include media-breakpoint-up(md) {
-    //
-    //}
+
+    @include media-breakpoint-down(xs) {
+      font-size: remcalc(31);
+    }
   }
 
   .title {
