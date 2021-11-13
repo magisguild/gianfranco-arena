@@ -12,7 +12,7 @@ body {
 .navbar-brand {
   .name {
     display: block;
-    font-weight: 800;
+    font-weight: 600;
     font-size: remcalc(32);
     line-height: remcalc(30);
     //@include media-breakpoint-up(md) {
@@ -22,6 +22,7 @@ body {
 
   .title {
     font-weight: 400;
+    margin-left: remcalc(3px);
     font-size: remcalc(18);
     line-height: remcalc(18);
     display: block;
@@ -121,8 +122,12 @@ body {
   p {
     span,
     a {
-      margin: remcalc(0) 1rem;
       text-decoration: none;
+      margin: remcalc(0) 0.25rem;
+
+      @include media-breakpoint-up(md) {
+        margin: remcalc(0) 1rem;
+      }
 
       @include on-action();
     }

@@ -31,21 +31,24 @@ def write_to_file(filename, data):
 
 def create_index(templateEnv, data):
   template = templateEnv.get_template('index.html.j2')
-  file = template.render(data=data['projects'])  # this is where to put args to the template renderer
+  menu = [{'title': 'Bio', 'link': '/info.html'}]
+  file = template.render(data=data['projects'], menu=menu)  # this is where to put args to the template renderer
 
   write_to_file('index.html', file)
 
 
 def create_project_pages(templateEnv, data):
+  menu = [{'title': 'Bio', 'link': '/info.html'}]
   for project in data['projects']:
     template = templateEnv.get_template('project.html.j2')
-    file = template.render(project=project, data=data['projects'])
+    file = template.render(project=project, data=data['projects'], menu=menu)
     write_to_file(f"{project['url']}.html", file)
 
 
 def create_filter_pages(templateEnv, data):
   filters = []
   projects = data['projects']
+  menu = [{'title': 'Bio', 'link': '/info.html'}]
 
   # Path("../src/filter").mkdir(parents=True, exist_ok=True)
 
@@ -69,7 +72,7 @@ def create_filter_pages(templateEnv, data):
 
   for page in filter_pages:
     template = templateEnv.get_template('index.html.j2')
-    file = template.render(data=filter_pages[page])  # this is where to put args to the template renderer
+    file = template.render(data=filter_pages[page], menu=menu)  # this is where to put args to the template renderer
 
     write_to_file(f'{page}.html', file)
 
@@ -77,7 +80,8 @@ def create_filter_pages(templateEnv, data):
 def create_info_page(templateEnv, data):
   # for project in data['projects']:
   template = templateEnv.get_template('info.html.j2')
-  file = template.render(data=data['projects'])
+  menu = [{'title': 'Home', 'link': '/index.html'}]
+  file = template.render(data=data['projects'], menu=menu)
   write_to_file(f"info.html", file)
 
 

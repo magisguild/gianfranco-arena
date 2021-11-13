@@ -17,7 +17,9 @@
 </head>
 <body>
 
-{% include 'header.html.j2' %}
+{% with menu=menu %}
+  {% include 'header.html.j2' %}
+{% endwith %}
 
 <div class="container">
   <div class="row">

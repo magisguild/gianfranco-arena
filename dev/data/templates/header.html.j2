@@ -10,9 +10,11 @@
 {#        <li class="nav-item">#}
 {#          <a class="nav-link" href="/">Home</a>#}
 {#        </li>#}
+        {% for link in menu %}
         <li class="nav-item">
-          <a class="nav-link" href="/info.html">Info</a>
+          <a class="nav-link" href="{{ link['link'] }}">{{ link['title'] }}</a>
         </li>
+        {% endfor %}
       </ul>
 {#    </div>#}
   </div>
